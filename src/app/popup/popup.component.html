@@ -1,0 +1,36 @@
+
+
+    <div class="contactinfo_wth_form popup">
+
+      <div class="form_part">
+        <ul style="list-style-type:none">
+          <!--   <li style="color: white;
+       font-size: 27px;
+       padding: 0;
+       float: left;">
+               <span (click)="closePopUp()">X</span>
+             </li>-->
+          <li>
+          <p style="color: white; font-size: 22px">
+            {{headerText}}
+            <br/>
+            אנא מלא/י פרטים וניצור קשר בהקדם
+
+          </p>
+          </li><li>
+          <input [(ngModel)]="contact.firstName" placeholder="שם מלא:" [ngClass]="errInput[0]">
+        </li><li>
+          <input [(ngModel)]="contact.phone" placeholder="נייד:" [ngClass]="errInput[1]">
+        </li><li>
+          <input [(ngModel)]="contact.email" placeholder="מייל:" [ngClass]="errInput[2]">
+        </li><li>
+          <label style="color: red;font-weight: bold;padding: 10px;">{{errorMsg}}</label>
+        </li><li>
+          <button (click)="add2NewsLetter()" style="float: left;">הרשמו</button>
+        </li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear">
+    </div>

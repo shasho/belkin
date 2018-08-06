@@ -1,0 +1,61 @@
+<div class="SocialMedia">
+  <a href="https://www.facebook.com/belkinroni/"><img src="assets/images/facebook-icon.png"></a>
+  <a href="https://www.youtube.com/channel/UCqydYHpqShvxXcciYGQ20BA"><img src="assets/images/you-tube-icon.png"></a>
+  <a href="mailto:mate.belkin@gmail.com"><img src="assets/images/email-icon.png"></a>
+</div>
+
+
+<div class="FooterContainer">
+  <div class="PageMainwidth">
+    <div class="contactinfo_wth_form">
+      <div class="contact_info">
+        <a href="mailto:mate.belkin@gmail.com">
+        מייל מטה: mate.belkin@gmail.com
+        </a>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="redinfo_part">
+      <div class="shade">
+        <a  [satPopoverAnchorFor]="contactPopover" (click)="contactPopover.toggle()" style="cursor: pointer">לארוח חוג בית עם בלקין<br>לחצו כאן ></a>
+      </div>
+    </div>
+    <div class="clear">
+    </div>
+  </div>
+</div>
+
+
+<sat-popover #contactPopover verticalAlign="center"  horizontalAlign="center" hasBackdrop  >
+  <app-popup [headerText]="headerText" ></app-popup>
+</sat-popover>
+
+
+<!--
+
+
+<div class="FooterContainer">
+  <div class="PageMainwidth">
+    <div class="contactinfo_wth_form">
+
+      <div class="form_part">
+          <span class="label">הירשמו לניוזלטר<br>של רוני בלקין: </span>
+          <input [(ngModel)]="contact.firstName" placeholder="שם מלא:" [ngClass]="errInput[0]">
+          <input [(ngModel)]="contact.phone" placeholder="נייד:" [ngClass]="errInput[1]">
+          <input [(ngModel)]="contact.email" placeholder="מייל:" [ngClass]="errInput[2]">
+          <label style="color: red;font-weight: bold;padding: 10px;">{{errorMsg}}</label>
+          <button (click)="add2NewsLetter()" >הרשמו</button>
+      </div>
+      <div class="contact_info">טל׳ מטה:<a href="tel:050-6494268">050-6494268</a></div>
+      <div class="clear"></div>
+    </div>
+    <div class="redinfo_part" *ngIf="errorMsg==''">
+      <div class="shade">
+        <a href="#">לפגישה אישית עם רוני<br>לחצו כאן ></a>
+      </div>
+    </div>
+    <div class="clear">
+    </div>
+  </div>
+</div>
+-->

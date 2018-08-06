@@ -1,0 +1,16 @@
+<h1>
+  מערכת ניהול תוכן
+</h1>
+
+<div *ngIf="okMsg" style="color: green">{{okMsg}}</div>
+<div *ngIf="errorMsg" style="color: red">{{errorMsg}}</div>
+<div>
+  <button type="button" class="btn btn-success btn-xs" (click)="addNew()">הוסף חדש</button>
+  <button type="button" class="btn btn-success btn-xs" (click)="getList()">הצג קיימים</button>
+  <button type="button" class="btn btn-success btn-xs" (click)="logout()" style="float: left;">יציאה</button>
+  <belkinbox-save *ngIf="showAddNew" [inBelkinBox]="" (outBelkinBox)=afterSaveObject($event)></belkinbox-save>
+  <belkinbox-list *ngIf="showList" (finish)=afterListFinish($event)></belkinbox-list>
+
+</div>
+
+

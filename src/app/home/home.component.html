@@ -1,0 +1,35 @@
+<app-header></app-header>
+
+<div class="IndexBodyContainer" style="padding-top: 2%">
+
+  <div class="PageMainwidth" *ngIf="belkinBoxList && belkinBoxList.length">
+    <div *ngFor="let t of temp(math.ceil(belkinBoxList.length/3)).fill(); let i = index" class="page_row sameheightrow">
+
+      <div *ngFor="let belkinBox of belkinBoxList.slice(3*i,3*i + 3);">
+
+
+        <div class="page_col_4 sameheightcol page_col_4_box">
+
+          <div class="page_col_4_box_header">
+            <h3>{{belkinBox.header}}</h3>
+          </div>
+          <div class="page_col_4_box_bodytext"  *ngIf="belkinBox.youTubeID">
+            <iframe width="100%" [src]="belkinBox.videoURL" frameborder="0" allowfullscreen></iframe>
+            <p [innerHTML]="belkinBox.content"></p>
+          </div>
+          <div class="page_col_4_box_bodytext" *ngIf="!belkinBox.youTubeID">
+            <div class="page_col_4_box_bodytext_image" *ngIf="belkinBox.imageURL"><img [src]="belkinBox.imageURL" ></div>
+            <p [innerHTML]="belkinBox.content"></p>
+          </div>
+          <div class="bottom-btn" *ngIf="belkinBox.urlLink"><a [href]=belkinBox.urlLink  >קראו עוד</a></div>
+          <div class="bottom-btn" *ngIf="belkinBox.contentFull"><a href="/פירוט#book{{belkinBox.mongoID}}" >קראו עוד</a></div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+<app-footer></app-footer>

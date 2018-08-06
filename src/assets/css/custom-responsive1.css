@@ -1,0 +1,553 @@
+@media only screen and (max-width: 1599px) {
+	.PageMainwidth {
+    max-width:1300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext img{
+        max-width: 100%;
+    }
+    .contactinfo_wth_form .form_part input{
+        width: 160px;
+    }
+
+    .ProfileDetailsPage{
+        max-width: 1200px;
+    }
+    .ProfileDetailsText{
+        font-size: 18px;
+    }
+    
+       .HeaderContainer .TopNavigation ul li{
+        font-size: 18px;
+    }
+    .HeaderContainer .logo-cont img{
+        width: 220px;
+    }
+    .HeaderContainer .HeaderBottomText p, .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 40px;
+    }
+    .HeaderContainer .HeaderBottomText a{
+        font-size: 18px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    margin-top: -80px;
+    }
+    .HeaderSpecer{
+        height: 275px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header h3{
+        font-size: 20px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .HeaderContainer .Bannerimage{
+        width: 420px;
+        left: 10%;
+        background-size: contain;
+    }
+    
+    .HeaderContainer .sub-heading img{
+        width: 420px;
+    }
+
+}
+@media only screen and (max-width: 1530px) {
+    	.PageMainwidth {
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header h3{
+        font-size: 22px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext{
+        font-size: 15px;
+    }
+    
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext_image{
+        height: auto;
+    }
+    
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+/*            padding-right: 460px;*/
+    }
+    .contact_info a{
+            font-size: 20px;
+    }
+    .contact_info{
+         font-size: 20px;
+    }
+    .contactinfo_wth_form .form_part button{
+        font-size: 20px;
+    }
+    .redinfo_part{
+        width: 200px;
+    }
+    .contactinfo_wth_form .form_part span.label{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .DonationContainerRight h3{
+        font-size: 26px;
+    }
+    .DonationContainerRight h4{
+        font-size: 20px;
+    }
+    .DonationContainerLeftCont h3{
+        font-size: 32px;
+    }
+    .Donationbtns-price{
+        font-size: 25px;
+    }
+    
+    
+    .redinfo_part{
+        font-size: 14px;
+        width: 180px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    .HeaderContainer .TopNavigation ul li {
+    font-size: 12px;
+}
+    .HeaderContainer .TopNavigation ul li.JoinMeBtn{
+        font-size: 14px;
+            margin-top: -7px;
+    }
+    
+    
+    .HeaderContainer .TopNavigation{
+/*        padding-top: 8px;*/
+        padding-bottom: 8px;
+    }
+    .HeaderContainer .logo-cont img {
+    width: 180px;
+}
+
+    .HeaderSpecer{
+        height: 240px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext {
+    padding: 15px 15px 0px 15px;
+}
+    
+    .IndexBodyContainer h2{
+        font-size: 36px;
+    }
+    .DonationContainerRight p{
+        line-height: 18px;
+    }
+    
+}
+@media only screen and (max-width: 1260px) {
+        .PageMainwidth {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+   
+    .SocialMedia{
+        width: 50px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header h3 {
+    font-size: 18px;
+}
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext_image{
+        height: auto;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .bottom-btn{
+        width: 220px;
+        margin-left: -110px;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext p{
+        font-size: 14px;
+    }
+    .contactinfo_wth_form .form_part input{
+        width: 150px;
+    }
+/*
+    .redinfo_part{
+        display: none;
+    }
+*/
+    .redinfo_part{
+        margin-top: -15px;
+    }
+    .contactinfo_wth_form .form_part span.label{
+        font-size: 16px;
+    }
+    .contactinfo_wth_form .form_part input{
+        height: 40px;
+    }
+    .FooterContainer{
+            padding-top: 15px;
+    padding-bottom: 15px;
+    height: 75px;
+    }
+    .contactinfo_wth_form .form_part button {
+    font-size: 16px;
+        height: 40px;
+        margin-top: 5px;
+}
+    .ProfileDetailsPage{
+        max-width: 860px;
+        padding-top: 0px;
+    }
+    .ProfileDetailsText{
+        font-size: 16px;
+    }
+    .ProfileDetailsImage{
+        width: 180px;
+        margin-top: 0px;
+    }
+    .ProfileDetailsText{
+        padding-right: 210px;
+    }
+    .DonationContainerLeftCont h3{
+        font-size: 24px;
+    }
+    .Donationbtns{
+        padding-top: 20px;
+    }
+    .Donationbtns-price{
+        font-size: 18px;
+    }
+    .radio_btn_container{
+        font-size: 18px;
+    }
+    .DonationContainerLeftCont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        .HeaderContainer.fixed-theme .HeaderBottomText{
+        width:100%;
+    }
+    
+   
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    margin-top: -65px;
+}
+    
+    .HeaderContainer.fixed-theme .logo-cont img{
+        width: 180px;
+    }
+    .HeaderContainer.fixed-theme .sub-heading{
+        padding-top: 15px;
+    }
+    
+    .HeaderContainer .TopNavigation ul li.JoinMeBtn a{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
+
+@media handheld, only screen and (max-width: 980px) {
+     .PageMainwidth {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    .MobileNav{
+    display: block;
+}
+    
+    .d-nav{
+        display: none;
+    }
+    
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        width: 340px;
+    }
+    
+    .HeaderContainer .HeaderBottomText p {
+    font-size: 32px;
+}
+    .HeaderContainer .logo-cont img {
+    width: 320px;
+    height: auto;
+}
+    .HeaderContainer, .HeaderContainer .BannerimageContainer .PageMainwidth {
+    height: 250px;
+}
+    
+    .HeaderContainer .Bannerimage {
+    width: 390px;
+}
+    
+    .IndexBodyContainer .page_row .page_col_4{
+        width: 96%;
+        height: auto !important;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box.page_col_4_videobox{
+        padding-bottom: 20px;
+    }
+    .HeaderContainer .TopNavigation{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    
+    
+    .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 24px;
+    }
+    .HeaderContainer .HeaderBottomText a {
+    margin-top: 0px;
+            font-size: 12px;
+}
+    
+    .HeaderContainer.fixed-theme .logo-cont img{
+        width: 150px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    top: -55px;
+}
+    .IndexBodyContainer .page_row .page_col_4_box.page_col_4_videobox img{
+        width: 100%;
+    }
+    .FooterContainer{
+        height: auto;
+        position: relative;
+    }
+    
+    .contact_info, .form_part{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .IndexBodyContainer{
+        padding-bottom: 30px;
+    }
+    .DonationContainerLeft, .DonationContainerRight{
+        width: 100%;
+        float: none;
+    }
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext img{
+        width: 100%;
+    }
+    
+.HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        padding-left: 0px;
+        width: 100%;
+    text-align: right;
+    }
+    .HeaderContainer .sub-heading{
+         text-align: right;
+    }
+    .HeaderContainer .HeaderBottomText p{
+         text-align: right;
+    }
+    .HeaderContainer .sub-heading img {
+    width: 310px;
+}
+    .HeaderContainer .Bannerimage {
+    width: 420px;
+    right: auto;
+    left: 0px;
+}
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    width: 100%;
+    top:0px;
+/*    padding-right: 250px;*/
+}
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    margin-top: -50px;
+}
+    .contactinfo_wth_form .form_part input {
+    width: 130px;
+}
+    .MobileNav{
+        color: #FFF;
+    }
+.visible-ipad{
+        display: block;
+    }
+    
+}
+@media handheld, only screen and (max-width: 750px) {
+     
+    .HeaderContainer.fixed-theme .sub-heading{
+/*        display: none;*/
+    }
+    .HeaderContainer.fixed-theme .sub-heading{
+        vertical-align: middle;
+    }
+     .HeaderContainer .logo-cont img{
+        width: 90%;
+    }
+    .SocialMedia{
+        margin-top: -150px;
+    }
+    .visible-mob{
+        display: block;
+    }
+    .contactinfo_wth_form:after{
+        display: block;
+        clear: both;
+        content: '';
+    }
+        .redinfo_part{
+        font-size: 14px;
+        width: 180px;
+        border-radius:10px 10px;
+            margin-top: 5px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            float: none!important;
+    }
+    .contactinfo_wth_form{
+         float: none!important;
+    }
+    
+
+
+}
+@media handheld, only screen and (max-width: 660px) {
+    .PageMainwidth {
+    max-width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+    .HeaderContainer .BannerimageContainer{
+        display: none;
+    }
+    .HeaderContainer .HeaderBottomText p{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .HeaderContainer .TopNavigation, .HeaderContainer .logo-cont, .HeaderContainer .HeaderBottomText{
+        width: 300px;
+    }
+    .HeaderContainer.fixed-theme .logo-cont img{
+        width: 110px;
+        vertical-align: middle;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 14px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText {
+    width: 100%;
+}
+    .HeaderContainer.fixed-theme .HeaderBottomText{
+        top: -38px;
+    }
+    .HeaderContainer.fixed-theme .HeaderBottomText a{
+        border-width: 1px;
+        border-radius: 4px;
+    }
+    .SocialMedia a img{
+        width: 18px;
+    }
+    .SocialMedia {
+    width: 30px;
+        border-radius: 0px 10px 10px 00px;
+}
+    .contactinfo_wth_form .form_part input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .ProfileDetailsPage{
+        
+    }
+    .ProfileDetailsText{
+        padding: 0px;
+    }
+    .ProfileDetailsImage{
+        width: 100%;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        margin-bottom: 20px;
+    }
+    
+    .radio_btn_container {
+    font-size: 18px;
+        width: 48%;
+}
+    .Donation_checkbox{
+          font-size: 16px;
+        text-align: right;
+    }
+    .HeaderContainer.fixed-theme .TopNavigation{
+        padding-right: 0px;
+    }
+   .HeaderContainer.fixed-theme .HeaderBottomPanel{
+        display: none;
+    }
+    .contact_info, .form_part{
+        margin-right: 0px;
+    }
+    .HeaderContainer, .HeaderContainer .BannerimageContainer .PageMainwidth {
+    height: auto;
+}
+    .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext p{
+        text-align: center;
+    }
+
+    
+}
+
+@media only screen and (max-device-height: 730px){
+    .HeaderContainer .Logo-panel{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .HeaderSpecer {
+    height: 260px;
+}
+    .Donationbtns{
+        padding-top: 10px;
+    }
+      .Donationbtns{
+        padding-bottom: 10px;
+    }
+    .DonationContainerRight h3{
+        margin-top: 10px;
+    }
+}
+
+@media handheld, only screen and (max-width: 360px) {
+    .HeaderContainer .logo-cont, .HeaderContainer .sub-heading{
+        width: 270px;
+    }
+     .HeaderContainer .logo-cont img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

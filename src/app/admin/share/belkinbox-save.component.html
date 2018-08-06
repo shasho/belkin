@@ -1,0 +1,61 @@
+<ul style="list-style: none">
+  <li>
+    <span style="color: red;">{{errorMessage}}</span>
+  </li>
+  <li>
+    <input type="text" placeholder="שם" [(ngModel)]="belkinBox.title" required>
+  </li>
+
+  <li>
+    פעיל ?
+    <input type="checkbox" placeholder="פעיל" [(ngModel)]="belkinBox.isActive">
+  </li>
+  <li>
+    דף הבית ?
+    <input type="checkbox" placeholder="דף הבית" [(ngModel)]="belkinBox.homePage">
+
+  </li>
+  <li>
+    <span>
+    עדיפות :
+    </span>
+    <input type="number" [(ngModel)]="belkinBox.priority">
+  </li>
+
+  <li>
+    <input type="text"  size="50" placeholder="כותרת" [(ngModel)]="belkinBox.header">
+  </li>
+
+  <li>
+    <textarea rows="5" style="width: 50%;" type="text" placeholder="תוכן מקוצר" [(ngModel)]="belkinBox.content"></textarea>
+  </li>
+
+  <li>
+    <textarea rows="5" style="width: 50%;" type="text" placeholder="תוכן מלא" [(ngModel)]="belkinBox.contentFull"></textarea>
+  </li>
+
+
+  <li>
+    <input type="text" size="50" placeholder="לינק להמשך" [(ngModel)]="belkinBox.urlLink">
+  </li>
+
+
+  <li style="border:1px black dotted">
+    <button type="button" class="btn btn-success btn-xs"
+            (click)="showImage('imageName')">
+      עדכן תמונה
+    </button>
+    <span *ngIf="belkinBox.imageName"> נטען בהצלחה הקובץ {{belkinBox.imageName}}</span>
+    <upload-file [postURL]="postURL" *ngIf="imageField=='imageName'" (fileName)="finishLoad($event)"></upload-file>
+  </li>
+
+  <li>
+    <input type="text" placeholder="מספר ביוטיוב" [(ngModel)]="belkinBox.youTubeID">
+  </li>
+
+
+  <li>
+    <button class="btn btn-sm pull-left btn-primary" (click)="saveNew()"> {{newObj?'הוסף':'עדכן'}}</button>
+  </li>
+</ul>
+<div style="padding-bottom: 50px"></div>

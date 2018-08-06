@@ -1,0 +1,29 @@
+<div class="col-md-12">
+  <div *ngIf="goodMessage" class="good-feedback">{{goodMessage}}</div>
+  <div *ngIf="badMessage" class="bad-feedback">{{badMessage}}</div>
+</div>
+<div style="padding-bottom: 20px"></div>
+<ul class="obj-list">
+  <li *ngFor="let belkinBox of belkinBoxList">
+    <div  class="row grid-lines"  (click)="show(belkinBox)" [ngClass]="gridLineClass(belkinBox)">
+      <div style="width: 50%;float: left;text-align: center;">
+        {{belkinBox.title}}
+      </div>
+      <div style="width: 25%;float: left;">
+        {{belkinBox.updatedAt | date: 'HH:mm dd/MM/yyyy'}}
+      </div>
+      <div style="width: 25%;float: left;">
+        {{belkinBox.createdAt | date: 'HH:mm dd/MM/yyyy'}}
+      </div>
+    </div>
+    <div class="row open-grid" *ngIf="(boxIsOpen(belkinBox))">
+       <belkinbox-save [inBelkinBox]="belkinBox"  (outBelkinBox)=afterSave($event) ></belkinbox-save>
+    </div>
+  </li>
+</ul>
+<h3 style="text-align: center"  *ngIf="!belkinBoxList || belkinBoxList.length==0">
+  לא קיימים רכיבים
+</h3>
+
+
+

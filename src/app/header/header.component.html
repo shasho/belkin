@@ -1,0 +1,128 @@
+<!--
+<div class="SocialMedia">
+  <a href="https://www.facebook.com/belkinroni/"><img src="assets/images/facebook-icon.png"></a>
+  <a href="https://www.youtube.com/channel/UCqydYHpqShvxXcciYGQ20BA"><img src="assets/images/you-tube-icon.png"></a>
+  <a href="mailto:mate.belkin@gmail.com"><img src="assets/images/email-icon.png"></a>
+</div>
+-->
+
+<div class="HeaderSpecer" id="HeaderSpecerauto"></div>
+<div id="mySidenav" [ngClass]=navClassList>
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <ul>
+    <li [ngClass]=pageLocation[0]><a href="/">עמוד הבית</a></li>
+    <li [ngClass]=pageLocation[1]><a href="אודות/">אודות</a></li>
+    <li [ngClass]=pageLocation[2]><a href="המצע/">המצע</a></li>
+    <li [ngClass]=pageLocation[3]><a href="גלריה/">גלריה</a></li>
+    <li [ngClass]=pageLocation[4]><a href="תרומות/">תרומות</a></li>
+    <li><a href="mailto:mate.belkin@gmail.com" target="_blank">צור קשר</a></li>
+  </ul>
+</div>
+<div [ngClass]=headerClassList id="header">
+  <div class="PageMainwidth" style="position: relative;">
+    <div class="Topbtn visible-ipad"><a [satPopoverAnchorFor]="contactPopover" (click)="contactPopover.toggle()" style="cursor: pointer">הצטרפו אלי</a></div>
+    <div class="TopNavigation">
+      <div class="MobileNav"><span style="font-size:30px;cursor:pointer" (click)="openNav()"><i class="fa fa-bars"></i></span></div>
+      <div class="page_row d-nav">
+        <ul>
+          <li [ngClass]=pageLocation[0]><a href="/">עמוד הבית</a></li>
+          <li [ngClass]=pageLocation[1]><a href="אודות/">אודות</a></li>
+          <li [ngClass]=pageLocation[2]><a href="המצע/"> המצע</a></li>
+          <li [ngClass]=pageLocation[3]><a href="גלריה/">גלריה</a></li>
+          <li [ngClass]=pageLocation[4]><a href="תרומות/">תרומות</a></li>
+          <li><a href="mailto:mate.belkin@gmail.com" target="_blank">צור קשר</a></li>
+          <li class="JoinMeBtn"><a [satPopoverAnchorFor]="contactPopover" (click)="contactPopover.toggle()" style="cursor: pointer">הצטרפו אלי</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="desktopOnly">
+    <div class="BannerimageContainer">
+      <div class="PageMainwidth">
+        <div class="Bannerimage"></div>
+      </div>
+    </div>
+    <div class="Logo-panel">
+      <div class="PageMainwidth">
+
+        <div class="logo-cont">
+          <img src="assets/images/logo.png">
+          <div class="sub-heading visible-lg"><img src="assets/images/sub-heading.png"></div>
+        </div>
+      </div>
+    </div>
+    <div class="HeaderBottomPanel">
+      <div class="PageMainwidth ">
+
+        <div class="HeaderBottomText">
+
+          <p>רוני בלקין לראשות רמת השרון</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="HeaderBottomPanel mobileOnly">
+    <img src="assets/images/mobile-header.jpg" style="width: 100%">
+  </div>
+</div>
+
+
+<sat-popover #contactPopover verticalAlign="center" horizontalAlign="center" hasBackdrop>
+  <app-popup [headerText]="headerText"></app-popup>
+</sat-popover>
+
+<!--
+<div [ngClass]=headerClassList  id="header">
+
+  <div class="PageMainwidth" style="position: relative;">
+    <div class="Topbtn"><a href="#">לפגישה אישית עם רוני<br>לחצו כאן ></a></div>
+    <div class="TopNavigation">
+      <div class="MobileNav"><span style="font-size:30px;cursor:pointer" (click)="openNav()" ><i class="fa fa-bars"></i></span></div>
+
+
+
+      <div class="page_row d-nav">
+        <ul>
+          <li [ngClass]=pageLocation[0] ><a href="/">עמוד הבית</a></li>
+          <li  [ngClass]=pageLocation[1]><a href="אודות/">אודות</a></li>
+          <li [ngClass]=pageLocation[2]><a href="המצע/"> המצע</a></li>
+          <li [ngClass]=pageLocation[3]><a href="גלריה/">גלריה</a></li>
+          <li [ngClass]=pageLocation[4]><a href="תרומות/">תרומות</a></li>
+          <li><a href="mailto:mate.belkin@gmail.com" target="_blank">צור קשר</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="BannerimageContainer">
+    <div class="PageMainwidth">
+      <div class="Bannerimage"></div>
+    </div>
+  </div>
+  <div class="Logo-panel">
+    <div class="PageMainwidth">
+
+      <div class="logo-cont"><img src="assets/images/logo.png"></div>
+
+    </div>
+  </div>
+  <div class="HeaderBottomPanel">
+    <div class="PageMainwidth ">
+
+      <div class="HeaderBottomText">
+        <p>רמת השרון צריכה ראש עיר</p>
+        <button [satPopoverAnchorFor]="contactPopover" (click)="contactPopover.toggle()">
+          הצטרפו אלי
+        </button>
+
+
+        <sat-popover #contactPopover verticalAlign="center"  horizontalAlign="center" hasBackdrop  forceAlignment>
+          <app-popup></app-popup>
+        </sat-popover>
+      </div>
+
+    </div>
+  </div>
+</div>
+-->

@@ -1,0 +1,44 @@
+<app-header></app-header>
+<div class="IndexBodyContainer">
+
+  <div class="PageMainwidth"  *ngIf="belkinBoxList && belkinBoxList.length">
+    <div class="page_row sameheightrow" id="test">
+
+      <div *ngFor="let belkinBox of belkinBoxList">
+
+
+        <div class="page_col_1 sameheightcol page_col_4_box page_col_4_videobox" *ngIf="belkinBox.youTubeID" id="book{{belkinBox.mongoID}}">
+
+          <div class="page_col_4_box_header">
+            <h3>{{belkinBox.header}}</h3>
+          </div>
+
+          <div class="page_col_4_box_bodytext">
+            <iframe width="100%" [src]="belkinBox.videoURL" frameborder="0" allowfullscreen></iframe>
+            <p [innerHTML]="belkinBox.content"></p>
+          </div>
+
+        </div>
+        <div class="page_col_1 sameheightcol page_col_4_box" *ngIf="!belkinBox.youTubeID"  id="book{{belkinBox.mongoID}}">
+
+          <div class="page_col_4_box_header">
+            <h3>{{belkinBox.header}}</h3>
+          </div>
+          <div class="page_col_4_box_bodytext">
+
+            <div class="page_col_1_box_bodytext_image detailsImage"  *ngIf="belkinBox.imageURL"><img [src]="belkinBox.imageURL" ></div>
+            <div class="detailsText">
+              <p [innerHTML]="belkinBox.contentFull"></p>
+              <p [innerHTML]="belkinBox.content" *ngIf="!belkinBox.contentFull"></p>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>
