@@ -277,6 +277,7 @@ hr {
   transition: 0.8s;
   -webkit-transition: 0.8s;
   text-align: center;
+    padding-bottom: 30px;
 }
 
 .HeaderContainer .logo-cont img {
@@ -346,7 +347,7 @@ hr {
   padding: 0px;
   margin: 0px;
   font-family: 'Conv_MeodedPashut_OEBold-Normal';
-  font-size: 50px;
+  font-size: 40px;
   color: #FFFFFF;
   transition: all 0.25s ease-in-out;
   text-align: center;

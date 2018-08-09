@@ -53,7 +53,7 @@
   }
 
   .HeaderContainer .logo-cont img {
-    width: 220px;
+    width: 370px;
   }
 
   .HeaderContainer .HeaderBottomText p, .HeaderContainer.fixed-theme .HeaderBottomText p {
@@ -69,7 +69,7 @@
   }
 
   .HeaderSpecer {
-    height: 275px;
+    height: 325px;
   }
 
   .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_header h3 {
@@ -82,7 +82,7 @@
   }
 
   .HeaderContainer .Bannerimage {
-    width: 420px;
+    width: 470px;
     left: 10%;
     background-size: contain;
   }
@@ -175,11 +175,13 @@
   }
 
   .HeaderContainer .logo-cont img {
-    width: 180px;
+    width: 320px;
   }
-
+    .HeaderContainer .HeaderBottomText p, .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 30px;
+    }
   .HeaderSpecer {
-    height: 240px;
+    height: 270px;
   }
 
   .IndexBodyContainer .page_row .page_col_4_box .page_col_4_box_bodytext p {
@@ -200,7 +202,14 @@
   }
 
 }
-
+@media only screen and (max-height: 720px) {
+    .HeaderContainer .logo-cont img{
+        width: 280px;
+    }
+    .HeaderContainer .HeaderBottomText p, .HeaderContainer.fixed-theme .HeaderBottomText p{
+        font-size: 25px;
+    }
+}
 @media only screen and (max-width: 1260px) {
   .PageMainwidth {
     max-width: 960px;
