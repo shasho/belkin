@@ -21,6 +21,11 @@
   .motoSection li {
     line-height: 18.4px;
   }
+
+  .join_btn {
+    position: relative;
+    top: 15px;
+  }
 }
 
 

@@ -15,7 +15,7 @@
     <li [ngClass]=pageLocation[2]><a href="המצע/">המצע</a></li>
     <li [ngClass]=pageLocation[3]><a href="גלריה/">גלריה</a></li>
     <li [ngClass]=pageLocation[4]><a href="תרומות/">תרומות</a></li>
-    <li><a href="mailto:mate.belkin@gmail.com" target="_blank">צור קשר</a></li>
+    <li [ngClass]=pageLocation[5]><a href="צור_קשר/">צור קשר</a></li>
   </ul>
 </div>
 <div [ngClass]=headerClassList id="header">
@@ -30,7 +30,7 @@
           <li [ngClass]=pageLocation[2]><a href="המצע/"> המצע</a></li>
           <li [ngClass]=pageLocation[3]><a href="גלריה/">גלריה</a></li>
           <li [ngClass]=pageLocation[4]><a href="תרומות/">תרומות</a></li>
-          <li><a href="mailto:mate.belkin@gmail.com" target="_blank">צור קשר</a></li>
+          <li [ngClass]=pageLocation[5]><a href="צור_קשר/">צור קשר</a></li>
           <li class="JoinMeBtn"><a [satPopoverAnchorFor]="contactPopover" (click)="contactPopover.toggle()" style="cursor: pointer">הצטרפו אלי</a></li>
         </ul>
       </div>

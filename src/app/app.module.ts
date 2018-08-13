@@ -21,6 +21,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SatPopoverModule} from '@ncstate/sat-popover';
 import {PopupComponent} from './popup/popup.component';
 import {DetailsComponent} from './details/details.component';
+import {ContactComponent} from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import {DetailsComponent} from './details/details.component';
     GalleryComponent, DetailsComponent,
     ContributeComponent,
     ThanksComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

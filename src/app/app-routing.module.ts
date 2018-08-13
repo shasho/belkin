@@ -7,6 +7,7 @@ import {GalleryComponent} from './gallery/gallery.component';
 import {ContributeComponent} from './contribute/contribute.component';
 import {ThanksComponent} from './thanks/thanks.component';
 import {DetailsComponent} from './details/details.component';
+import {ContactComponent} from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'פירוט', component: DetailsComponent },
   { path: 'תרומות', component: ContributeComponent },
   { path: 'תודה', component: ThanksComponent },
+  { path: 'צור_קשר', component: ContactComponent },
 ];
 
 @NgModule({

@@ -277,7 +277,7 @@ hr {
   transition: 0.8s;
   -webkit-transition: 0.8s;
   text-align: center;
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .HeaderContainer .logo-cont img {
@@ -431,7 +431,6 @@ hr {
   transition: 0.8s;
   -webkit-transition: 0.8s;
 }
-
 
 .HeaderContainer.fixed-theme .logo-cont {
   display: none;
@@ -766,6 +765,29 @@ hr {
   /*    animation-iteration-count: ; */
 }
 
+.join_btn {
+  background-color: #41aa34;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Conv_Heebo-Bold';
+  border-radius: 7px;
+  z-index: 99;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.contact_footer{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  bottom: 12%;
+}
+
 /*InnerPage*/
 
 .Topbtn {
@@ -1058,8 +1080,8 @@ hr {
 }
 
 .motoSection li {
- /* padding-right: 1em;
-  text-indent: -.7em;*/
+  /* padding-right: 1em;
+   text-indent: -.7em;*/
   padding-right: 2.0em;
   text-indent: -1.4em;
   line-height: 30px;

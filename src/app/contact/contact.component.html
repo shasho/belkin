@@ -1,0 +1,39 @@
+<app-header></app-header>
+
+<div class="IndexBodyContainer">
+
+  <div class="PageMainwidth">
+
+    <div style="text-align: center">
+      <h2>
+        כל אחד יכול להשפיע.
+        הצטרפו לנבחרת וגלו כמה כח יש בידי התושבים!
+      </h2>
+      <p style="font-size: 25px;margin: 5px 0 15px 0;">
+        אנא מלא/י פרטים וניצור קשר בהקדם
+      </p>
+    </div>
+
+    <div class="contactinfo_wth_form" style="float: none">
+
+      <div class="form_part" style="text-align: center;float: none">
+        <input [(ngModel)]="contact.firstName" placeholder="שם מלא:" [ngClass]="errInput[0]" style="background-color: #EDEDED;border-radius: 10px 10px 10px 10px;">
+        <input [(ngModel)]="contact.phone" placeholder="נייד:" [ngClass]="errInput[1]" style="background-color: #EDEDED;border-radius: 10px 10px 10px 10px;">
+        <input [(ngModel)]="contact.email" placeholder="מייל:" [ngClass]="errInput[2]" style="background-color: #EDEDED;border-radius: 10px 10px 10px 10px;">
+        <a (click)="add2NewsLetter()" class="join_btn">הצטרף</a>
+        <label style="color: red;font-weight: bold;padding: 10px;">{{errorMsg}}</label>
+      </div>
+    </div>
+
+    <div class="desktopOnly">
+      <img src="assets/images/contact_logo.png" class="contact_footer">
+    </div>
+
+  </div>
+
+  <div class="mobileOnly" style="padding-top: 30px;">
+    <img src="assets/images/contact_logo_mobile.png" style="width: 100%">
+  </div>
+
+</div>
+<app-footer></app-footer>
