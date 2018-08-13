@@ -19,7 +19,8 @@ export class ContactComponent  {
   contact = {
     firstName: '',
     phone: '',
-    email: ''
+    email: '',
+    remark: ''
   };
 
   constructor(private belkinBoxService: BelkinBoxService,
@@ -46,6 +47,7 @@ export class ContactComponent  {
     }
 
     if (this.errorMsg === '') {
+      console.log('belkinBoxService.saveLead', this.contact)
       this.belkinBoxService.saveLead(this.contact).subscribe(
         data => {
           this.router.navigate(['תודה/']);

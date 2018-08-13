@@ -36,7 +36,8 @@ export class BelkinBoxService {
   }
 
   saveLead(contact): Observable<any> {
-    const urlReq = 'https://new.odialer.com/api_dialer/api/general/addNew?project=belkin&firstName=' + contact.firstName + '&phone=' + contact.phone + '&email=' + contact.email
+    const urlReq = 'https://new.odialer.com/api_dialer/api/general/addNew?project=belkin&firstName=' +
+        contact.firstName + '&phone=' + contact.phone + '&email=' + contact.email + '&remark=' + contact.remark
     //const urlReq = 'http://localhost:3000/api/general/addNew?firstName=' + contact.firstName + '&phone=' + contact.phone + '&email=' + contact.email
     return this.apiService.pureGet(urlReq)
       .pipe(map(data => data));

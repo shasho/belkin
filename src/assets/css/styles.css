@@ -788,6 +788,11 @@ hr {
   bottom: 12%;
 }
 
+.contact_sub_header{
+  font-size: 25px;
+  margin: 5px 0 15px 0;
+}
+
 /*InnerPage*/
 
 .Topbtn {

@@ -26,6 +26,14 @@
     position: relative;
     top: 15px;
   }
+
+  .contact_header {
+    font-size: 26px !important;
+  }
+
+  .contact_sub_header {
+    font-size: 20px !important;
+  }
 }
 
 
