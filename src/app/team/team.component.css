@@ -1,0 +1,84 @@
+
+.circleBase {
+  border-radius: 50%;
+  position: relative;
+  right: 5%;
+  top: 20px;
+}
+
+.teamNumber {
+  width: 50px;
+  height: 50px;
+  background: #002852;
+}
+
+.circleText {
+  color: white;
+  font-size: 28px;
+  position: relative;
+  right: 17px;
+  top: 10px;
+}
+
+.circleText1 {
+  color: white;
+  font-size: 28px;
+  position: relative;
+  right: 10px;
+  top: 10px;
+}
+
+.border {
+  margin: 0 7%;;
+  text-align: center;
+  border: 2px #002852 solid;
+  border-radius: 25px;
+}
+
+.borderImage {
+  width: 30%;
+  display: inline-block;
+  padding: 20px 0px;
+}
+
+.borderTextBox {
+  padding-left: 30px;
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.borderTextBoxHeader {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px
+}
+
+.borderTextBoxText {
+  font-size: 20px;
+  margin: 0px
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+  .border {
+    margin: 0;
+  }
+
+  .teamNumber{
+    right: -5%;
+  }
+
+  .borderImage {
+    width: 100%;
+    display: block;
+  }
+
+  .borderTextBox {
+    padding: 0;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}

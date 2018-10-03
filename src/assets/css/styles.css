@@ -185,7 +185,7 @@ hr {
   padding-bottom: 15px;
   position: relative;
   z-index: 2;
-  padding-left: 420px;
+  padding-left: 370px;
   transition: 0.8s;
   -webkit-transition: 0.8s;
   padding-top: 30px;
@@ -330,7 +330,7 @@ hr {
 
 .HeaderBottomPanel {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   transition: 0.8s;
   -webkit-transition: 0.8s;
 }
@@ -394,7 +394,7 @@ hr {
   top: 0px;
   bottom: 0px;
   left: 0%;
-  width: 520px;
+  width: 601px;
   transition: 0.8s;
   -webkit-transition: 0.8s;
 }

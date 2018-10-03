@@ -22,6 +22,7 @@ import {SatPopoverModule} from '@ncstate/sat-popover';
 import {PopupComponent} from './popup/popup.component';
 import {DetailsComponent} from './details/details.component';
 import {ContactComponent} from './contact/contact.component';
+import {TeamComponent} from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import {ContactComponent} from './contact/contact.component';
     ContributeComponent,
     ThanksComponent,
     ContactComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,
