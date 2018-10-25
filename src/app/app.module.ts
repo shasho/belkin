@@ -23,6 +23,7 @@ import {PopupComponent} from './popup/popup.component';
 import {DetailsComponent} from './details/details.component';
 import {ContactComponent} from './contact/contact.component';
 import {TeamComponent} from './team/team.component';
+import {LocateComponent} from './locate/locate.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import {TeamComponent} from './team/team.component';
     GalleryComponent, DetailsComponent,
     ContributeComponent,
     ThanksComponent,
+    LocateComponent,
     ContactComponent,
     TeamComponent,
   ],
