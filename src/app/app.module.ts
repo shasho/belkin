@@ -3,9 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
-import {
-  SharedModule
-} from './shared';
+import {SharedModule} from './shared';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 import {HomeComponent} from './home/home.component';
@@ -24,6 +22,8 @@ import {DetailsComponent} from './details/details.component';
 import {ContactComponent} from './contact/contact.component';
 import {TeamComponent} from './team/team.component';
 import {LocateComponent} from './locate/locate.component';
+import { AgGridModule } from 'ag-grid-angular';
+
 
 @NgModule({
   declarations: [
@@ -49,7 +49,8 @@ import {LocateComponent} from './locate/locate.component';
     SharedModule,
     AuthModule,
     AppRoutingModule,
-    AdminModule
+    AdminModule,
+    AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]

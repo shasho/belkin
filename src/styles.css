@@ -3,3 +3,6 @@
 @import 'assets/css/font-awesome.css';
 @import 'assets/css/styles.css';
 @import 'assets/css/custom-responsive.css';
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+
